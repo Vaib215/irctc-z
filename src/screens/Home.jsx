@@ -231,7 +231,7 @@ const Home = () => {
                 {" / "}
                 {new Date(
                   date.getTime() + (i - 3) * 24 * 60 * 60 * 1000
-                ).getMonth()}
+                ).getMonth()+1}
               </Chip>
             ))}
           </ScrollView>
